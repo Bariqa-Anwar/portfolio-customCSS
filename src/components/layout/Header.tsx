@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function (){
+export default function Header (){
     return(
         <header>
             <div className="text-center text-blue-950 font-serif bg-white sm:text-left">

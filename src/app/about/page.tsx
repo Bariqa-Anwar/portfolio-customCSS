@@ -24,15 +24,15 @@ export default function About(){
                 
                 <div className="text-xs mt-6 font-sans text-left ml-5 mr-5 lg:text-sm">
                 <p className="text-gray-700"> 
-                    {`I'm a passionate frontend web developer`} with a strong foundation in building responsive and user-friendly websites. 
+                    {`I'm a passionate frontend web developer with a strong foundation in building responsive and user-friendly websites. 
                     My expertise includes working with HTML, CSS (both custom and Tailwind CSS), and JavaScript, with a focus on 
                     TypeScript for better scalability and maintainability. I enjoy using Next.js to create dynamic, high-performance 
-                    web applications.
+                    web applications.`}
                 </p>
                 <p className="mt-4 text-gray-700">
                     {`I'm always eager to learn new technologies and refine my skills to deliver exceptional user experiences.`}
                 </p>
-                <p className="text-gray-700 mt-9"> Let's talk with me...
+                <p className="text-gray-700 mt-9"> {`Let's talk with me...`}
                 </p>
                 </div>
                 
