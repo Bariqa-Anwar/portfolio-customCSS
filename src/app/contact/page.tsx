@@ -32,7 +32,7 @@ export default function Contact(){
                     <div className="container relative inline-block h-44 w-64 mx-auto shadow-lg mb-3 bg-red-100 mt-5
                 text-blue-950 font-serif text-lg sm:h-48 sm:w-96 sm:ml-32 ">
                 <Image className="mt-8 mx-auto"
-                src="/images/lkn.png" alt="icon" height={40} width={40}/>
+                src="/images/ldn.jpg" alt="icon" height={40} width={40}/>
                 <br/>
                 <Link className="mx-10 sm:mx-24" href="https://www.linkedin.com/in/bariqa-anwar-8767a02ba/" target="main">
                 Stay connected here!</Link>
