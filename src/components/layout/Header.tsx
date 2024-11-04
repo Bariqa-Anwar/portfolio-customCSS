@@ -17,7 +17,7 @@ export default function Header (){
             </div>
 
             <div className="sm:mt-[-410px]">
-                <Image className="-mt-24 mb-12 sm:h-96 sm:w-80 sm:ml-[303px] md:ml-[430px] lg:ml-[620px] lg:h-[450px] lg:w-96
+                <Image className="-mt-24 mb-12 pl-1 sm:h-96 sm:w-80 sm:ml-[303px] md:ml-[430px] lg:ml-[620px] lg:h-[450px] lg:w-96
                 lg:mt-[-500px] xl:ml-[730px] xl:mb-40 xl:h-[490px] xl:mt-[-520px]" 
                 src="/images/pic.png" alt="photo" height={900} width={900}/>
             </div>
@@ -46,7 +46,7 @@ export default function Header (){
                  Webpage, which I created as Pixel Perfect by using Tailwind CSS in Next JS. The tool used is Figma. You can find the 
                 code on Github and Vercel.
                 </p>
-                <Image className="mt-5 h-auto w-64 ml-5 mr-3 sm:h-72 sm:w-[490px] sm:ml-16 sm:mt-14 md:w-[550px] md:ml-28 lg:ml-56
+                <Image className="mt-5 h-auto w-64 mx-6 sm:h-72 sm:w-[490px] sm:ml-16 sm:mt-14 md:w-[550px] md:ml-28 lg:ml-56
                 xl:ml-72" 
                 src="/images/rivo.PNG" alt="webpage" height={600} width={600}/>
                 </div> 
@@ -58,7 +58,7 @@ export default function Header (){
                     projects, {`I've done about 6+ Project Applications by using Typescript and Node JS.`} You can run commands on NPM and 
                     find the code on GitHub either.
                     </p>
-                    <Image className="mt-5 h-44 w-60 ml-4 mb-6 sm:h-72 sm:w-[550px] sm:ml-8 md:ml-24 lg:mt-12 lg:ml-56 xl:ml-72"
+                    <Image className="h-44 w-60 mx-6 mb-6 sm:h-72 sm:w-[550px] sm:ml-8 md:ml-24 lg:mt-16 lg:ml-56 xl:ml-72"
                     src="/images/projects.png" alt="photo" width={600} height={700}/>
                 </div>
         </header>

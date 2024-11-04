@@ -25,7 +25,7 @@ export default function Navbar (){
                 </li>
             </ul>
             <Sheet>
-  <SheetTrigger className="md:hidden"><Menu className="hover:text-red-400"/></SheetTrigger>
+  <SheetTrigger className="md:hidden"><Menu className="hover:text-red-400 mr-3"/></SheetTrigger>
   <SheetContent className="bg-white">
   <ul>
                 <li className="flex flex-col text-lg font-serif mt-5 font-semibold ">
