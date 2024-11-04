@@ -6,12 +6,15 @@ export default function Footer(){
         <footer className="bg-blue-950 text-white h-72">
 
             <div className="flex gap-5 ml-14 sm:gap-9 sm:ml-64 md:ml-80 lg:ml-[450px] xl:ml-[590px]">
+
                 <Link href="https://github.com/Bariqa-Anwar" target="main">
                 <Image className="mt-8 h-5 w-5" src="/images/github.PNG" alt="logo" height={200} width={200}/>
                 </Link>
+
                 <Image className="mt-8 h-6 w-6" src="/images/insta.png" alt="logo" height={200} width={200}/>
+
                 <Link href="https://www.linkedin.com/in/bariqa-anwar-8767a02ba/" target="main"> 
-                <Image className="mt-8 h-5 w-5" src="/images/linkedin.png" alt="logo" height={200} width={200}/>
+                <Image className="mt-8 h-5 w-5" src="/images/lkn.png" alt="logo" height={200} width={200}/>
                 </Link>
             </div>
 
