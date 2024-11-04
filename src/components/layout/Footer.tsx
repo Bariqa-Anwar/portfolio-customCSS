@@ -14,7 +14,7 @@ export default function Footer(){
                 <Image className="mt-8 h-6 w-6" src="/images/insta.png" alt="logo" height={200} width={200}/>
 
                 <Link href="https://www.linkedin.com/in/bariqa-anwar-8767a02ba/" target="main"> 
-                <Image className="mt-8 h-5 w-5" src="/images/lkn.png" alt="logo" height={200} width={200}/>
+                <Image className="mt-8 h-5 w-5" src="/images/linkd.png" alt="logo" height={200} width={200}/>
                 </Link>
             </div>
 
