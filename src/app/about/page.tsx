@@ -5,17 +5,17 @@ export default function About(){
     return(
         <main>
             <div className="xl:text-center">
-                <h1 className="text-blue-950 font-serif text-xl mt-12 ml-24 relative inline-block sm:text-2xl sm:ml-60 md:text-3xl
-                md:ml-72 md:mt-28 lg:text-5xl lg:mt-20 lg:mx-96 xl:mr-80 xl:mt-[60px]">
+                <h1 className="text-blue-950 font-serif text-xl mt-12 mx-36 relative inline-block sm:text-2xl sm:ml-60 md:text-3xl
+                md:mx-72 md:mt-28 lg:text-5xl lg:mt-20 lg:mx-96 xl:mr-80 xl:mt-[60px]">
                 About Me<span className="block w-9 h-0.5 bg-red-500 mt-4 mx-auto sm:w-14">
                 </span></h1>
             </div>
 
             <div className="sm:flex">
-                <Image className="h-60 w-52 mx-9 sm:h-96 sm:w-60 sm:mx-3 md:mt-[-30px] lg:h-[400px] lg:w-72 lg:ml-6 lg:mt-1 xl:ml-20"
+                <Image className="h-64 w-56 mx-16 sm:h-96 sm:w-60 sm:mx-3 md:mt-[-30px] lg:h-[400px] lg:w-72 lg:ml-6 lg:mt-1 xl:ml-20"
                 src="/images/aboutp.png" alt="photo" width={600} height={700}/>
 
-            <div className=" mx-7 sm:text-right sm:mt-9 md:mx-12 lg:text-right lg:mx-20">
+            <div className=" mx-14 sm:text-right sm:mt-9 md:mx-12 lg:text-right lg:mx-20">
                 <h1 className="text-xl mt-12 text-blue-950 font-serif sm:text-left lg:mt-12 lg:text-2xl xl:mt-14"> 
                 Designing With Passion While Exploring The World
                 <span className="block w-28 h-0.5 bg-red-500 mt-6 mx-1 sm:w-36 sm:mr-40 md:mr-56 md:w-36 md:mt-3
@@ -35,13 +35,7 @@ export default function About(){
                 <p className="text-gray-700 mt-9"> {`Let's talk with me...`}
                 </p>
                 </div>
-                
-                <div className="mt-10 text-blue-950 font-sans sm:text-left">
-                    <Link href="mail to:bariqaanwar34@gmail.com"/>Contact: bariqaanwar34@gmail.com 
-                <span className="block w-28 h-0.5 bg-red-500 mt-4 mx-1 sm:w-32 sm:mr-44 md:w-40 md:mr-56 lg:mr-80 lg:w-44
-                xl:mr-[600px] xl:w-40 xl:mt-5"></span>
-                </div>
-
+        
                 </div>
                 </div>
 
