@@ -27,8 +27,7 @@ export default function Header (){
                 About Me!</h1>
                 <p className="font-serif text-xs text-blue-950 text-center mt-4 ml-4 mr-4 lg:text-sm"> 
                     Aspiring Frontend Web Developer, Html, custom & Tailwind CSS and TypeScript...   
-                <span className="block w-16 h-0.5 bg-red-500 mt-7 mx-36 sm:ml-64 md:mx-80 lg:ml-[450px] xl:ml-[620px]">
-                </span></p>
+                </p>
 
 
                 <h1 className="font-serif text-xl text-blue-950 ml-5 mr-5 mt-16 sm:text-2xl sm:mt-16 lg:ml-20 lg:text-3xl xl:ml-32"> 
