@@ -1,0 +1,441 @@
+.headerDiv1{
+    color: rgb(23 37 84);
+    font-family: serif;
+    background-color: rgb(255 255 255);
+}
+.heading1{
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.para1{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 3.3rem;
+}
+.button{
+    background-color: rgb(239 68 68);
+    color: rgb(255 255 255);
+    border-color:rgb(239 68 68);
+    font-family: serif;
+    margin-left: 1rem;
+    margin-top: 2.25rem;
+    margin-bottom: 4rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight:lighter;
+}
+.button:hover{
+    background-color: rgb(220 38 38);
+}
+.image1{
+    margin-top: -5rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    padding-left: 0rem;
+    height: 270px;
+    width: 230px;
+}    
+.heading2{
+    font-family: serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(23 37 84);
+    text-align: center;
+}
+.para2{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-family: serif;
+    color: rgb(23 37 84);
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.heading3{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: serif;
+    color: rgb(23 37 84);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 4rem;
+}
+.span1{
+    display: block;
+    width: 1.5rem;
+    height: 0.125rem;
+    background-color: rgb(239 68 68);
+    margin-top: 1.25rem; 
+}
+.para3{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: serif;
+    color: rgb(23 37 84);
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 1.75rem;
+}
+.div4{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: serif;
+    color: rgb(23 37 84);
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.heading4{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 1.5rem;
+}
+.span2{
+    display: block;
+    width: 1.5rem;
+    height: 0.125rem;
+    background-color: rgb(239 68 68);
+    margin-top: 0.5rem;
+}
+.para4{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.image2{
+    margin-top: 1.25rem;
+    width: 16rem;
+    height: auto;
+    margin-left: 1.4rem;
+    margin-right: 1.3rem;
+}
+.lastDiv{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: serif;
+    color: rgb(23 37 84);
+    margin-top: 3rem; 
+}
+.lastHeading{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 1.25rem;
+}
+.span3{
+    display: block;
+    width: 2.75rem;
+    height: 0.125rem;
+    background-color: rgb(239 68 68);
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.lastPara{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+} 
+.lastImage{
+    height: 11rem;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+@media (min-width:320px){
+    .image1{
+        margin-left: 3rem;
+    }
+    .image2{
+        margin-left: 2.2rem;
+    }
+    .lastImage{
+        margin-left: 2.2rem;
+    }
+}
+
+@media (min-width:375px) {
+    .image1{
+        margin-left: 4rem;
+    }
+    .image2{
+        margin-left: 3rem;
+        margin-top: 2.5rem;
+    }
+    .lastImage{
+        margin-left: 3rem;
+        margin-top: 2.5rem;
+    }
+    .heading1{
+        margin-left: 2rem;
+    }
+    .para1{
+        margin-left: 2rem;
+    }
+    .button{
+        margin-left: 2rem;
+    }
+
+}
+@media (min-width: 425px){
+    .image1{
+        margin-left: 5.5rem;
+    }
+    .image2{
+        margin-left: 4rem;
+        margin-top: 3rem;
+    }
+    .lastImage{
+        margin-left: 4.2rem;
+        margin-top: 3rem;
+    }
+}
+@media(min-width:673px){
+    .para1{
+        margin-right: 21rem;
+    }
+    .image1{
+        padding-left: 6rem;
+    }
+}
+@media (min-width: 640px) {
+    .headerDiv1 {
+        text-align: left;
+    }
+    .para1 {
+        text-align: left;
+        margin-left: 1.5rem;
+        margin-right: 20rem;
+    }
+    .heading1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 6rem;
+        margin-left: 1.3rem;
+        margin-right: 15rem;
+    }
+    .button {
+        margin-left: 1.5rem;
+    }
+    .image1 {
+        height: 24rem;
+        width: 20rem;
+        margin-left: 18.6rem;
+        margin-top: 0rem;
+    }
+    .heading2 {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin-top: 5rem;
+    }
+    .div3{
+        margin-top: -410px;
+    }
+    .para3 {
+        margin-top: 1rem;
+    }
+    .heading3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 4rem;
+    }
+    .span1 {
+        margin-top: 0.75rem;
+    }
+    .heading4 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 3rem;
+    }
+    .para4 {
+        margin-right: 2rem;
+    }
+    .image2 {
+        height: 18rem;
+        width: 490px;
+        margin-left: 4rem;
+        margin-top: 3.5rem;
+    }
+    .lastHeading {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .lastPara {
+        margin-right: 2rem;
+    }
+    .lastImage {
+        height: 18rem;
+        width: 550px;
+        margin-top: 3.5rem;
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 768px) {
+    .heading1 {
+        margin-right: 24rem;
+        margin-left: 3rem;
+    }
+    .para1 {
+        margin-right: 24rem;
+        margin-left: 3rem;
+    }
+    .button{
+        margin-left: 3rem;
+    }
+    .image1 {
+        margin-top: 0rem;
+        margin-left: 390px;
+        height: 25rem;
+        width: 22rem;
+        padding: 0;
+    }
+    .heading3{
+        margin-left: 3rem;
+    }
+    .para3{
+        margin-left: 3rem;
+    }
+    .heading4{
+        margin-left: 3rem;
+    }
+    .para4 {
+        margin-right: 3.5rem;
+        margin-left: 3rem;
+    }
+    .image2 {
+        width: 550px;
+        margin-left: 7rem;
+    }
+    .span3 {
+        margin-left: 0px;
+    }
+    .lastImage {
+        margin-left: 6rem;
+    }
+    .lastHeading{
+        margin-left: 3rem;
+    }
+    .lastPara {
+        margin-right: 4rem;
+        margin-left: 3rem;
+    }
+}
+@media (min-width: 1024px) {
+    .heading1 {
+        font-size: 3rem;
+        line-height: 1;
+        margin-right: 24rem;
+        margin-left: 5rem;
+    }
+    .para1 {
+        margin-top: 2.25rem;
+        margin-left: 5rem;
+    }
+    .button {
+        margin-left: 5rem;
+    }
+    .image1 {
+        margin-left: 620px;
+        height: 440px;
+        width: 24rem;
+        margin-top: -2rem; 
+    }
+    .heading2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .para2 {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    .heading3 {
+        margin-left: 5rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+    .para3 {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-left: 5rem;
+    }
+    .heading4 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin-left: 5rem;
+    }
+    .para4 {
+        margin-left: 5rem;
+        margin-right: 7rem;
+    }
+    .image2 {
+        margin-left: 14rem;
+    }
+    .lastHeading {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin-left: 5rem;
+    }
+    .lastPara {
+        margin-left: 5rem;
+        margin-right: 7rem;
+    }
+    .lastImage {
+        margin-top: 4rem;
+        margin-left: 14rem;
+    }
+}
+@media (min-width: 1280px) {
+    .heading1 {
+        margin-left: 8rem;
+        margin-right: 700px;
+    }
+    .para1 {
+        margin-left: 8rem;
+    }
+    .button {
+        margin-left: 8rem;
+    }
+    .image1 {
+        margin-left: 730px;
+        margin-bottom: 10rem;
+        height: 490px;
+        
+    }
+    .heading3 {
+        margin-left: 8rem;
+    }
+    .para3 {
+        margin-left: 8rem;
+    }
+    .heading4 {
+        margin-left: 8rem;
+    }
+    .para4 {
+        margin-left: 8rem;
+        margin-right: 14rem;
+    }
+    .image2 {
+        margin-left: 18rem;
+    }
+    .lastHeading {
+        margin-left: 8rem;
+    }
+    .lastPara {
+        margin-left: 8rem;
+        margin-right: 14rem;
+    }
+    .lastImage {
+        margin-left: 18rem;
+    } 
+}

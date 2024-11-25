@@ -1,0 +1,105 @@
+.footer{
+    background-color:rgb(23 37 84);
+    color: rgb(255 255 255);
+    height: 18rem;
+    text-align: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.gitImage{
+    margin-top: 2rem;
+    height: 1.25rem;
+    width: 1.25rem;  
+}
+.insta{
+    margin-top: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;  
+}
+.linkedin{
+    margin-top: 2rem;
+    height: 1.25rem;
+    width: 1.25rem;  
+}
+.div2{
+    margin-top: 4rem;
+    margin-left: 1.5rem; 
+}
+.heading{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+.span{
+    display: block;
+    width: 7rem;
+    height: 0.125rem;
+    background-color: rgb(239 68 68);
+    margin-left: auto;
+    margin-right: auto;
+}
+.gmail{
+    font-family: sans-serif;
+    color: white;
+}
+.hr{
+    margin-top: 2.5rem;
+}
+.personal{
+    margin-left: 1.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 1.25rem;
+}
+@media (min-width: 640px) {
+    .div1 {
+        gap: 2.25rem;
+    }
+    .div2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .personal {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .heading {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-family: serif;
+    }
+    .span {
+        width: 10rem;
+    }
+}
+@media (min-width: 1024px) {
+    .personal{
+        padding-bottom: 2%;
+    }
+    .heading {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+    .footer{
+        height: 20rem;
+    }
+    .span {
+        width: 11rem;
+    }
+}
+@media (min-width: 1280px) {
+    .personal {
+        margin-right: 3rem;
+    }
+    .div2 {
+        margin-right: 3rem;
+    }
+}

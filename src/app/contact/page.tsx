@@ -1,82 +1,69 @@
 import Image from "next/image"
 import Link from "next/link"
+import styles from '@/styles/contact.module.css' 
 
 export default function Contact(){
     return(
         <main>
-            <div className="sm:mb-24">
-            <h1 className="text-center text-blue-950 font-serif text-2xl mt-12 mx-auto sm:text-3xl  lg:text-4xl 
-            xl:text-5xl xl:mr-18"> 
-            Contact <span className="block w-11 h-0.5 bg-red-500 mt-3 mx-auto xl:w-20">
+            <div className={styles.div1}>
+            <h1 className={styles.heading1}> 
+            Contact <span className={styles.span1}>
             </span></h1> 
             </div>
 
-            <div className=" text-center sm:flex flex-col md:ml-14 lg:ml-52 xl:ml-[350px] sm:mx-4">
-                <div className="text-center container relative inline-block h-44 w-64 mx-auto shadow-lg bg-red-100 mt-24 mb-3
-                text-blue-950 font-serif text-xl sm:h-48 sm:w-96 sm:ml-32 sm:-mt-2">
-                    <Image className="mt-5 mx-auto"
+            <div className={styles.div2}>
+                <div className={styles.div3}>
+                    <Image className={styles.image1}
                     src="/images/home.png" alt="icon" height={40} width={40}/>
-                    <h1 className="mt-7">Pakistan,</h1>
-                    <h1>Karachi</h1>
+                    <h1 className={styles.heading2}>Pakistan,</h1>
+                    <h1 className={styles.Karachi}>Karachi</h1>
                 </div>
 
-                <div className="container relative inline-block h-44 w-64 mx-auto shadow-lg mb-3 bg-red-100 mt-5 
-                text-blue-950 font-serif text-xl sm:h-48 sm:w-96 sm:ml-32">
-                <Image className="mt-8 mx-auto"
+                <div className={styles.div4}>
+                <Image className={styles.image2}
                     src="/images/mail.png" alt="icon" height={40} width={40}/>
                     <br/>
-                    <Link className="text-center font-serif text-lg  md:ml-0" href="mail to:bariqaanwar34@gmail.com">
+                    <Link className={styles.link1} href="mail to:bariqaanwar34@gmail.com">
                     bariqaanwar34@gmail.com</Link>
                 </div>
 
-                    <div className="container relative inline-block h-44 w-64 mx-auto shadow-lg mb-3 bg-red-100 mt-5
-                text-blue-950 font-serif text-lg sm:h-48 sm:w-96 sm:ml-32 ">
-                <Image className="mt-8 mx-auto"
+                    <div className={styles.div5}>
+                <Image className={styles.image3}
                 src="/images/ldn.jpg" alt="icon" height={40} width={40}/>
                 <br/>
-                <Link className="text-center sm:mx-24" href="https://www.linkedin.com/in/bariqa-anwar-8767a02ba/" target="main">
+                <Link className={styles.link2} href="https://www.linkedin.com/in/bariqa-anwar-8767a02ba/" target="main">
                 Stay connected here!</Link>
                     </div>
                     
-                    <div className="container relative inline-block h-[480px] w-64 mx-auto shadow-lg mb-3 bg-red-100 mt-5
-                    sm:ml-32 sm:w-96 sm:mt-6">
-                        <h1 className="text-blue-950 font-serif text-xl mt-10 text-center md:text-2xl xl:text-3xl"> 
+                    <div className={styles.div6}>
+                        <h1 className={styles.heading3}> 
                         Get In Touch! 
-                        <span className="block w-11 h-0.5 bg-red-500 mt-3 mx-24 sm:mx-40"></span>   
+                        <span className={styles.span2}></span>   
                         </h1>
 
-                    <input className="border border-red-200 p-2 mt-5 h-9 w-60 focus:outline-none focus:ring-2
-                     focus:ring-red-400 placeholder:text-xs text-xs sm:w-72 lg:placeholder:text-sm md:w-80 
-                      xl:w-[350px]" 
+                    <input className={styles.input1} 
                     type="text" placeholder="Enter your name"/>
 
-                    <input className="border border-red-200 p-2 mt-5 h-9 w-60 focus:outline-none focus:ring-2
-                     focus:ring-red-400 placeholder:text-xs text-xs sm:w-72 md:w-80 lg:placeholder:text-sm
-                    xl:w-[350px]" 
+                    <input className={styles.input2} 
                     type="email" placeholder="Enter email address"/>
 
-                    <input className="border border-red-200 mt-5 h-36 w-60 focus:outline-none focus:ring-2
-                     focus:ring-red-400 placeholder:text-xs text-sm pb-28 pl-1 sm:w-72 md:w-80 lg:placeholder:text-sm
-                    xl:w-[350px]" 
+                    <input className={styles.input3}
                     type="text" placeholder="Enter your message"/>
 
-                    <p className="text-xs font-sans mt-2 text-gray-700 mr-28 sm:mr-40 md:mr-48 xl:w-[350px]">
+                    <p className={styles.para1}>
                     0 of 1 max characters</p>
-                    <button className="border border-red-300 mt-6 mr-28 h-9 w-28 text-xs 
-                    text-white bg-red-500 hover:bg-red-700 sm:w-72 sm:ml-11 md:ml-8 lg:w-80 xl:ml-5 xl:w-[350px] xl:text-sm">
+                    <button className={styles.button}>
                     Send message </button>
                     </div>
                     </div>
 
-                    <div className="sm:text-center">
-                        <p className="text-blue-950 text-2xl ml-20 mb-7 mt-5 font-serif sm:mr-14 md:ml-24 lg:ml-32 
-                        xl:mr-32 xl:text-3xl">
+                    <div className={styles.div7}>
+                        <p className={styles.para2}>
                         Message Me
-                        <span className="block w-16 h-0.5 bg-red-500 mt-3 ml-4 sm:mx-auto sm:w-24 md:ml-60 lg:ml-[350px] xl:ml-[500px]">
+                        <span className={styles.span3}>
                         </span>
                         </p>
-                        <p className="text-gray-500 text-xs mx-16 mb-7 sm:mx-28 md:ml-44 md:mr-44 
-                        lg:ml-72 lg:mr-60 xl:ml-[500px] xl:mr-[500px]">
+                        <p className={styles.last}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe magnam dicta eius repellat quas
                         quaerat, nostrum, numquam, natus et asperiores.
                         </p>
